@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fh.dao.RightDao">
+
+    <!-- 初始化权限菜单 -->
+    <select id="showSystemList" resultType="com.fh.entity.vo.RightVo" parameterType="java.lang.Integer">
+        SELECT TP.ID,TP.NAME RIGHTNAME,TP.PID,TP.RELEVANCERIGHT
+        FROM T_PRO TP
+        WHERE TP.ISSHOW=2
+        AND TP.PID=#{pId}
+    </select>
+
+
+</mapper>
