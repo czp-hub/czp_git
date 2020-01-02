@@ -44,7 +44,7 @@
         var userName= $("#userName").val();
         var userPassword=  $("#userPassword").val();
         $.ajax({
-            url: "http://localhost:8090/user",
+            url: "http://localhost:8090/login/queryLong",
             dataType: "json",
             type:"POST",
             data:{
@@ -53,6 +53,8 @@
             },
             success: function (result) {
                 if(result.code==200){
+                    var token = result.data;
+                    sessionStorage.setItem("token",token);
                     location.href="<%=request.getContextPath()%>/jumpController/jumpPage?url=User/queryUser";
                 }
                 alert(result.message)

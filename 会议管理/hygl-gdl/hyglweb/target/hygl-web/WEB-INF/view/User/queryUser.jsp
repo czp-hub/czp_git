@@ -37,6 +37,27 @@
 </div>
 
 <script >
+
+    var token = "";
+    if (sessionStorage.getItem("token")) {
+        token = sessionStorage.getItem("token");
+    }
+    $(function () {
+        $.ajaxSetup({ //发送请求前触发
+            contentType: "application/x-www-form-urlencoded;charset=utf-8",
+            complete: function (XMLHttpRequest, textStatus) {
+                var nologin = XMLHttpRequest.getResponseHeader("NOLONGIN");
+                if (nologin == "5006") {
+                    window.location.href = "<%=request.getContextPath()%>/index.jsp";
+                }
+            },
+            beforeSend: function (xhr) { //可以设置自定义标头
+                xhr.setRequestHeader('token', token);
+            }
+        })
+    })
+
+
     //展示
     var userTable = $("#userTable").DataTable({
         "autoWidth":true, //自适应宽度

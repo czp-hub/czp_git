@@ -1,7 +1,7 @@
 package com.fh.controller;
 
 import com.fh.service.RightService;
-import com.fh.utils.ResponseServer;
+import com.fh.utils.response.ResponseServer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
