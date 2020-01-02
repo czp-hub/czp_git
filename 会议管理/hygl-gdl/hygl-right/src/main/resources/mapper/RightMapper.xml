@@ -5,11 +5,10 @@
 <mapper namespace="com.fh.dao.RightDao">
 
     <!-- 初始化权限菜单 -->
-    <select id="showSystemList" resultType="com.fh.entity.vo.RightVo" parameterType="java.lang.Integer">
+    <select id="showSystemList" resultType="com.fh.entity.vo.RightVo">
         SELECT TP.ID,TP.NAME RIGHTNAME,TP.PID,TP.RELEVANCERIGHT
         FROM T_PRO TP
         WHERE TP.ISSHOW=2
-        AND TP.PID=#{pId}
     </select>
 
 

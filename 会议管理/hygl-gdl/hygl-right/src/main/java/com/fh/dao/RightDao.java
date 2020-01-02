@@ -16,5 +16,5 @@ public interface RightDao extends BaseMapper<RightPo> {
      * 初始化权限菜单
      * @return
      */
-    List<RightVo> showSystemList(Integer pId);
+    List<RightVo> showSystemList();
 }

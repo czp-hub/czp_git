@@ -49,44 +49,47 @@
     <session id="-1527277088">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="class" value="1" />
+          <entry key="java" value="29" />
           <entry key="jsp" value="10" />
-          <entry key="properties" value="12" />
-          <entry key="xml" value="27" />
+          <entry key="properties" value="14" />
+          <entry key="xml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="29" />
           <entry key="JSP" value="10" />
-          <entry key="Properties" value="12" />
-          <entry key="XML" value="27" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="539" />
+          <entry key="java" value="788" />
           <entry key="jsp" value="1043" />
-          <entry key="properties" value="46" />
-          <entry key="xml" value="218" />
+          <entry key="properties" value="52" />
+          <entry key="xml" value="251" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="539" />
+          <entry key="JAVA" value="788" />
           <entry key="JSP" value="1042" />
-          <entry key="Properties" value="46" />
+          <entry key="Properties" value="52" />
           <entry key="SQL" value="3" />
-          <entry key="XML" value="215" />
+          <entry key="XML" value="248" />
         </counts>
       </usages-collector>
     </session>
@@ -144,11 +147,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hyglweb/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+            <state relative-caret-position="604">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/service/impl/RightServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#743#752#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/entity/vo/RightVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hygl-right/src/main/resources/mapper/RightMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -156,8 +192,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hyglweb/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state relative-caret-position="25">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/dao/RightDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -193,13 +238,9 @@
         <option value="$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/utils/ResponseServer.java" />
         <option value="$PROJECT_DIR$/hygl-right/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/entity/vo/RightPo.java" />
-        <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/entity/vo/RightVo.java" />
         <option value="$PROJECT_DIR$/hyglweb/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/hygl-right/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/hygl-dape/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/hygl-job/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/dao/RightDao.java" />
-        <option value="$PROJECT_DIR$/hygl-right/src/main/resources/mapper/RightMapper.xml" />
         <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/HyglRightApplication.java" />
         <option value="$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/utils/ServerEnum.java" />
         <option value="$PROJECT_DIR$/hyglweb/src/main/webapp/commons/static.jsp" />
@@ -226,7 +267,6 @@
         <option value="$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/Interceptor/LoginAnnotationAop.java" />
         <option value="$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/service/RightService.java" />
-        <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/service/impl/RightServiceImpl.java" />
         <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/controller/RightController.java" />
         <option value="$PROJECT_DIR$/hygl-user/src/main/java/com/fh/loginController/logController.java" />
         <option value="$PROJECT_DIR$/hygl-user/src/main/java/com/fh/controller/UserController.java" />
@@ -235,6 +275,11 @@
         <option value="$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/utils/response/ResponseServer.java" />
         <option value="$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/exception/AuthenticateException.java" />
         <option value="$PROJECT_DIR$/hyglweb/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/service/impl/RightServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/dao/RightDao.java" />
+        <option value="$PROJECT_DIR$/hygl-right/src/main/resources/mapper/RightMapper.xml" />
+        <option value="$PROJECT_DIR$/hygl-right/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/hygl-right/src/main/java/com/fh/entity/vo/RightVo.java" />
       </list>
     </option>
   </component>
@@ -254,8 +299,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="F:\Maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.6.1" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -266,7 +310,21 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hygl-right" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hygl-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hygl-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -276,127 +334,51 @@
       <path value="$PROJECT_DIR$/hyglweb/src/main/webapp/commons/fileInput/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="310" />
+    <option name="y" value="95" />
+    <option name="width" value="1525" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="hygl-dape" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-              <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hygl-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="response" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -404,7 +386,7 @@
             </path>
             <path>
               <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -413,7 +395,7 @@
             </path>
             <path>
               <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -423,53 +405,71 @@
             </path>
             <path>
               <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fh" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fh" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hygl-right" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hygl-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hygl-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hygl-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hygl-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
               <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hygl-gdl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyglweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,7 +481,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577967565341" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shop_colud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -517,7 +517,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HyglUserApplication">
+  <component name="RunManager" selected="Spring Boot.HyglRightApplication">
     <configuration name="HyglDapeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hygl-dape" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.HyglDapeApplication" />
@@ -706,17 +706,18 @@
       <workItem from="1577922284684" duration="8108000" />
       <workItem from="1577932596592" duration="10000" />
       <workItem from="1577938230544" duration="24895000" />
+      <workItem from="1577968456663" duration="2410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49382000" />
+    <option name="totallyTimeSpent" value="51796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20576407" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1735925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -727,7 +728,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37906647" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.2602546" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.2560113" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -780,27 +781,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hyglweb/src/main/webapp/WEB-INF/view/User/updateUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-user/src/main/java/com/fh/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-user/src/main/java/com/fh/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hyglweb/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -829,72 +809,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-right/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jdk1.8.0_151/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="512" selection-start-line="512" selection-end-line="512" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/exception/AuthenticateException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/controller/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/exception/AuthenticateException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven/warehouse/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/httpclient/HttpConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-532">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://F:/Java/jdk1.8.0_151/src.zip!/java/lang/RuntimeException.java" />
+    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class" />
+    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class" />
+    <entry file="jar://F:/Maven/warehouse/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar!/org/aspectj/lang/ProceedingJoinPoint.class" />
+    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/httpclient/HttpConnection.java" />
     <entry file="file://$PROJECT_DIR$/hygl-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -902,20 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-webmvc/4.3.6.RELEASE/spring-webmvc-4.3.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hyglweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-webmvc/4.3.6.RELEASE/spring-webmvc-4.3.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class" />
     <entry file="file://$PROJECT_DIR$/hyglweb/src/main/java/com/fh/controller/JumpController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -933,21 +839,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/controller/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/controller/GlobalExceptionHandler.java" />
     <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/utils/ServerEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,32 +861,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-user/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven/warehouse/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar!/org/aspectj/lang/annotation/Around.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/controller/MovieConteroller.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/bean/BuyBean.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="jar://F:/Maven/warehouse/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar!/org/aspectj/lang/annotation/Around.class" />
+    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/controller/MovieConteroller.java" />
+    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/bean/BuyBean.java" />
+    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/service/impl/UserServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/jwt/JwtUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -998,13 +873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/service/impl/MovieServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/service/impl/MovieServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/controller/RightController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1019,20 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/service/impl/RightServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/service/RightService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hygl-commons/src/main/java/com/fh/utils/UtilsTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -1040,27 +895,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="429" selection-start-line="429" selection-end-line="429" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
+    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class" />
+    <entry file="jar://F:/Maven/warehouse/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class" />
     <entry file="file://$PROJECT_DIR$/hyglweb/src/main/webapp/WEB-INF/view/User/queryUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1079,16 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="32" column="60" lean-forward="true" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hygl-user/src/main/java/com/fh/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1135,17 +962,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-right/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-user/src/main/java/com/fh/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyglweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/HyglRightApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/service/RightService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/dao/RightDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-right/src/main/resources/mapper/RightMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hyglweb/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="25">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hyglweb/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        <state relative-caret-position="604">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repository/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-right/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/entity/vo/RightVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hygl-right/src/main/java/com/fh/service/impl/RightServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#743#752#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
